@@ -76,7 +76,7 @@
         display: block;
         z-index: 9999;
         position: absolute;
-        background: url(/assets/icon-hamburger-menu.svg);
+        background: url(/images/icon-hamburger-menu.svg);
         width: 2.5rem;
         aspect-ratio: 1;
         top: 3rem;
@@ -88,7 +88,7 @@
     }
 
     .mobile-nav-toggle[aria-expanded="true"] {
-        background-image: url(../assets/icon-hamburger-menu-close.svg);
+        background-image: url(../images/icon-hamburger-menu-close.svg);
         position: fixed;
     }
 
