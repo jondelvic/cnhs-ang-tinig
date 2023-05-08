@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/images/favicon.png">
+        <title>Ang Tinig</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/style.css">
+    </head>
+
+    <body>
+
+        <header class="header flex">
+
+            <div class="nameplate-container">
+                <img src="/images/header-nameplate.png" alt="Ang Tinig Nameplate" class="nameplate">
+            </div>
+
+            <nav>
+                <ul class="nav-bar flex" id="nav-bar" data-visible="false">
+                    <li>
+                        <a href="index.html" id="nav-button">HOME</a>
+                    </li>
+                    <li>
+                        <a href="" id="nav-button">BALITA</a>
+                    </li>
+                    <li>
+                        <a href="" id="nav-button">OPINYON</a>
+                    </li>
+                    <li>
+                        <a href="" id="nav-button">LATHALAIN</a>
+                    </li>
+                    <li>
+                        <a href="" id="nav-button">AG-TEK</a>
+                    </li>
+                    <li>
+                        <a href="" id="nav-button">ISPORTS</a>
+                    </li>
+                </ul>
+
+                <button class="mobile-nav-toggle" aria-controls="nav-bar" aria-expanded="false"><span class="sr-only">Menu</span></button>
+
+            </nav>
+
+        </header>
+
+        <section class="carousel__section">
+
+            <div class="carousel">
+
+                <button class="carousel__button carousel__button--left is-hidden">
+                    <img src="/assets/arrow-left.svg" alt="">
+                </button>
+    
+                <div class="carousel__track-container">
+                    <ul class="carousel__track">
+                        <li class="carousel__slide current-slide">
+                            <div class="carousel__image-container">
+                                <a href="/articles/balita/news-article1/news-article1.html"><img class="carousel__image" src="/images/pagcor-usec.jpg" alt=""></a>
+                            </div>
+                            <div class="carousel__headline-container">
+                                <a href="/articles/balita/news-article1/news-article1.html">USEC Ablan, nagmungkahing palitan ang PAGCOR building</a>
+                            </div>
+                            <div class="carousel__by-line-container">
+                                <span class="italic">ni</span> <span class="by-name">John Rainier Pizarro</span> &centerdot; <span id="upload-date">Disyembre 1, 2022</span>
+                            </div>
+                            <div class="carousel__caption-container">
+                                Bumisita si USEC Atty. Michael Kristian Alban noong ika-1 ng Disyembre, 2022 sa CNHS upang siyasatin ang mga silid-aralan sa PAGCOR building na naapektuhan ng lindol.
+                            </div>
+                        </li>
+                        <li class="carousel__slide">
+                            <div class="carousel__image-container">
+                                <a href="/articles/balita/news-article2/news-article2.html">
+                                    <img class="carousel__image" src="/images/earthquake-drill.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="carousel__headline-container one-line">
+                                <a href="/articles/balita/news-article2/news-article2.html">
+                                    Earthquake drill sa CNHS, pinaigting
+                                </a>
+                            </div>
+                            <div class="carousel__by-line-container">
+                                <span class="italic">ni</span> <span class="by-name">John Rainier Pizarro</span> &centerdot; <span id="upload-date">Pebrero 17, 2023</span>
+                            </div>
+                            <div class="carousel__caption-container">
+                                Isinagawa ang earthquake drill sa CNHS upang maihanda ang mga estudyante sa maaring pagdating ng lindol noong ika-17 ng Prebrero, 2023.
+                            </div>
+                        </li>
+                        <li class="carousel__slide">
+                            <div class="carousel__image-container">
+                                <a href="/articles/balita/news-article3/news-article3.html">
+                                    <img class="carousel__image" src="/images/pnp-poso-asst.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="carousel__headline-container one-line">
+                                <a href="/articles/balita/news-article3/news-article3.html">
+                                    CNHS, protektado ng PNP - POSO
+                                </a>
+                            </div>
+                            <div class="carousel__by-line-container">
+                                <span class="italic">ni</span> <span class="by-name">Edzel Mae Gagarin</span> &centerdot; <span id="upload-date">Pebrero 21, 2023</span>
+                            </div>
+                            <div class="carousel__caption-container">
+                                Sangay ng PNP sinisigiradong ligtas ang kapakanan ng bawat indibiduwal na pumapasok sa CNHS noong ika-21 ng Pebrero, 2023.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+    
+                <button class="carousel__button carousel__button--right">
+                    <img src="/assets/arrow-right.svg" alt="">
+                </button>
+    
+            </div> 
+
+        </section>
+
+        <section class="headlines__section">
+
+           <div class="headlines__tag flex">HEADLINES</div>
+
+           <div class="headlines__article__preview--container grid">
+
+                <div class="article__preview">
+                    <div class="article__preview--img--container">
+                        <a href="articles/opinyon/opinyon-article1/opinyon-article1.html"><img class="article__preview--img" src="/images/main-editoryal-prev.png" alt=""></a>
+                    </div>
+                    <div class="article__preview--content--container">
+                        <div class="headlines__preview__tag">editoryal</div>
+                        <div class="headlines__preview__headline">
+                            <a href="articles/opinyon/opinyon-article1/opinyon-article1.html">DO No. 49: Nagmamalasakit o pasakit?</a>
+                        </div>
+                        <div class="headlines__preview__content">Nakasaad sa Deped Order No. 49, s. 2022, na ang mga guro at ibang manggagawa na kabilang sa Department of Education (DepEd) ay kinakailangang maging propesyonal sa kanilang mga trabaho at panatilihin kung hanggang saan lamang ang limitasyon nila sa kanilang mga mag-aaral.</div>
+                    </div>
+                </div>
+
+                <div class="article__preview">
+                    <div class="article__preview--img--container">
+                        <a href="articles/lathalain/lathalain-article1/lathalain-article1.html"><img class="article__preview--img" src="/images/main-feature-prev.png" alt=""></a>
+                    </div>
+                    <div class="article__preview--content--container">
+                        <div class="headlines__preview__tag">lathalain</div>
+                        <div class="headlines__preview__headline">
+                            <a href="articles/lathalain/lathalain-article1/lathalain-article1.html">CNHS, LAGING THE BEST!</a>
+                        </div>
+                        <div class="headlines__preview__content">Noong taong panuruan 2020-2021 nakamit ng CNHS ang 1st runner up bilang Best Brigada Eskwela Implementor ng Region 1 mula sa kategorya ng Mega School, at kamakailan lang ay nagwagi muli ito bilang Brigada Eskwela Best Implementor sa Division level. Ito ang dahilan kung bakit muli ay napili ang paaralan upang maging kinatawan muli para sa kumpetisyon para sa rehiyon.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article__preview">
+                    <div class="article__preview--img--container">
+                        <a href="articles/agtek/agtek-article1/agtek-article1.html"><img class="article__preview--img" src="/images/main-agtek-prev.jpg" alt=""></a>
+                    </div>
+                    <div class="article__preview--content--container">
+                        <div class="headlines__preview__tag">agham at teknolohiya</div>
+                        <div class="headlines__preview__headline">
+                            <a href="articles/agtek/agtek-article1/agtek-article1.html">SSC New Curriculum Dry Run: Nagsimula Na</a>
+                        </div>
+                        <div class="headlines__preview__content">Ang Dry Run para sa bagong curriculum nang Special Science Class (SSC) ng Candon National Highschool ay sinimulan na ngayong araw ng Miyerkules, Marso. 22, 2023.</div>
+                    </div>
+                </div>
+
+                <div class="article__preview">
+                    <div class="article__preview--img--container">
+                        <a href="articles/isports/isports-article1/isports-article1.html"><img class="article__preview--img" src="/images/main-isports-prev.jpg" alt=""></a>
+                    </div>
+                    <div class="article__preview--content--container">
+                        <div class="headlines__preview__tag">isports</div>
+                        <div class="headlines__preview__headline">
+                            <a href="articles/isports/isports-article1/isports-article1.html">Red Royales, naghari sa 2022 Intramurals</a>
+                        </div>
+                        <div class="headlines__preview__content">Matapos ang ilang taong pagkansela ng Intramurals dulot ng COVID-19, muling idinaos ng Candon National High School ang Intramurals na may temang “Leveling-up Athleticism through Recreational Opportunities” na kung saan ay muli itong pinagdominahan ng Grade 10 Red Royales na ginanap noong Disyembre 5-9, 2022. 
+                        </div>
+                    </div>
+                </div>
+
+           </div>
+
+        </section>
+
+        <section class="latest__issue--section">
+
+            <div class="latest__issue__tag flex">LATEST ISSUE</div>
+
+            <div class="latest__issue--container">
+                <embed src="assets/latest-issue.pdf#toolbar=0" width="80%" height="100%" class="latest__issue">
+            </div>
+
+        </section>
+
+        <div class="editorial__board--button--container">
+            <button id="editorial__board--button">
+                <a href="articles/pamatnugutan/pamatnugutan.html">PAMATNUGUTAN</a> 
+            </button>
+        </div>
+
+        <footer class="footer--container">
+            <div class="footer__img--container">
+                <img src="/images/footer-nameplate.png" alt="" class="footer__img">
+            </div>
+            <div class="fb__link--container">
+                <img src="/assets/facebook.svg" alt="">
+                <a href="https://www.facebook.com/thevoiceangtinigeportal/" target="_blank">https://www.facebook.com/thevoiceangtinigeportal/</a>
+            </div>
+            <div class="location--container">
+                <img src="/assets/location.svg" alt="">
+                <div class="location--address">Bagani Campo, Candon City, Ilocos Sur</div>
+            </div>
+            <div class="horizontal-line-end">
+                <hr width="1200px"/>
+            </div>
+            <div class="credits">Developed by Jon Delvic Calub</div>
+        </footer>
+
+
+        <script src="/scripts/nav.js"></script>
+        <script src="/scripts/carousel.js"></script>
+
+    </body>
+
+</html>
