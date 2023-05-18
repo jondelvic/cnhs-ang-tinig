@@ -50,13 +50,18 @@
 }
 
 .nav-bar a:hover {
-    color: #527B43;
+    color: #46683a;
+}
+
+.resize-animation-stopper * {
+    animation: none !important;
+    transition: none !important;
 }
 
 @media (max-width: 65em) {
     .nav-bar {
         --gap: 1.25em;
-        z-index: 1000;
+        z-index: 9998;
         position: fixed;
         inset: 0 0 0 0;
         background: white;
@@ -64,7 +69,6 @@
         justify-content: center;
         align-items: center;
         font-size: 1.5em;
-        transform: translateX(100%);
         transition: transform 350ms ease-out;
     }
 
@@ -95,11 +99,6 @@
     .nameplate-container {
         width: 200px;
     }
-}
-
-.resize-animation-stopper * {
-    animation: none !important;
-    transition: none !important;
 }
 
 /* Carousel Styles */
@@ -213,9 +212,16 @@
     display: none;
 }
 
-/* @media (max-width: 400px) {
-
-    
+@media (max-width: 475px) {
+    .carousel__headline-container {
+        font-weight: 800;
+        font-size: 1em;
+        width: 950px;
+        position: absolute;
+        top: 63%;
+        color: rgb(255, 255, 255);
+        padding: 0px 40px;
+    }
 }
 
 @media (min-width: 1276px) and (max-width: 1413px) {
@@ -279,7 +285,7 @@
         color: rgb(255, 255, 255);
         padding: 0px 40px;
     }
-} */
+}
 
 .headlines__tag {
     margin-top: -3.25%;
