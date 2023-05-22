@@ -53,15 +53,10 @@
     color: #46683a;
 }
 
-.resize-animation-stopper * {
-    animation: none !important;
-    transition: none !important;
-}
-
 @media (max-width: 65em) {
     .nav-bar {
         --gap: 1.25em;
-        z-index: 9998;
+        z-index: 1000;
         position: fixed;
         inset: 0 0 0 0;
         background: white;
@@ -70,6 +65,7 @@
         align-items: center;
         font-size: 1.5em;
         transition: transform 350ms ease-out;
+        transform: translateX(100%);
     }
 
     .nav-bar[data-visible="true"] {
@@ -93,12 +89,16 @@
 
     .mobile-nav-toggle[aria-expanded="true"] {
         background-image: url(../images/icon-hamburger-menu-close.svg);
-        position: fixed;
     }
 
     .nameplate-container {
         width: 200px;
     }
+}
+
+.resize-animation-stopper * {
+    animation: none !important;
+    transition: none !important;
 }
 
 /* Carousel Styles */
